@@ -1,0 +1,38 @@
+# Model files
+*.pt
+*.keras
+*.tflite
+*.h5
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Logs and outputs
+recordings/
+pipeline_logs/
+debug_output/
+__pycache__/
+*.pyc
+
+# Sensitive files
+sd670_calibration_FINAL.json
+auto_threshold.json
+cae_config.json
+model_config.json
+
+# Old code files
+*.txt
+*.jpeg
+*.jpg
+pipeline_main_software.py
+pipeline_main_software_v1.py
+pipeline_unified_v2.py
+segment_decoder_v2.py
+pipeline_main_hardware.py
+gpio_controller_v2.py
+
+# OS
+.DS_Store
+Thumbs.db
